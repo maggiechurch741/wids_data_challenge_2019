@@ -3,7 +3,7 @@ library(choroplethr)
 library(choroplethrMaps)
 
 # Breast Cancer Data from CDC 
-cdc <- read.delim("/fsr/home/m1mgc02/Personal/wids_data_challenge_2019-master/Compressed Mortality, 1999-2016.txt") 
+cdc <- read.delim("Compressed Mortality, 1999-2016.txt") 
 
 # Crude rate = death/population * 100,000. Age adjustment is a technique 
 # for "removing" the effects of age from crude rates.
